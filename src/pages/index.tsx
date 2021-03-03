@@ -1,7 +1,6 @@
 import { Container, Section } from '../styles/pages/index';
 import { ExperienceBar } from '../components/ExperienceBar';
 import Profile from '../components/Profile';
-import GlobalStyled from '../styles/Global-Styled';
 import { CompleteChallenges } from '../components/CompleteChallenges';
 import { CountDown } from '../components/CountDown';
 import Head from 'next/head';
@@ -27,7 +26,6 @@ export default function Home(props: HomeProps) {
                 <Head>
                     <title>Início | Move.it</title>
                 </Head>
-                <GlobalStyled />
                 <ExperienceBar />
                 <CountDownContextProvider>
                     <Section>
