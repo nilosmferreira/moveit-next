@@ -9,4 +9,7 @@ export interface IUser {
     twitter_username: string;
     created_at: Date;
     updated_at: Date;
+    level: number;
+    currentExperience: number;
+    challengesCompleted: number;
 }
